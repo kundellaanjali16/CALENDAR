@@ -1,0 +1,6 @@
+names=["anjali","akshaya","srija","nandhu","archana"]
+marks=[[20,30,40],[50,60,70],[80,90,98],[97,54,88],[20,34,67]]
+for i in range(5):
+    a=sum(marks[i])//3
+print("{} .{} scored has{}%".format(i+1,names[i],a))
+    
